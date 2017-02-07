@@ -1,0 +1,24 @@
+<form action="/students/<%=@students[0][0]%>" method = "post">
+	<div class="row">
+		<div class="large-6 columns">
+				<div class="row colapse prefix-radius">
+					<div class="small-3 columns">
+						<span class="prefix">First Name</span>
+						<input type="text" name="firstname" value="<%=@students[0][1]%>">
+						<span class="prefix">Last Name</span>
+						<input type="text" name="lastname" value="<%=@students[0][2]%>">
+						<span class="prefix">Major</span>
+						<input type="text" name="major" value="<%=@students[0][3]%>">
+						<span class="prefix">Email</span>
+						<input type="text" name="email" value="<%=@students[0][4]%>">
+						<span class="prefix">Graduation Status</span>
+						<input type="text" name="graduationstat" value="<%=@students[0][5]%>">
+					</div>
+				</div>
+		</div>
+		<input type="submit" class="button" value="Submit">
+	</div>
+	
+	
+
+</form>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Database System</title>
+    <link rel="stylesheet" href="http://localhost:4567/css/foundation.css">
+    <link rel="stylesheet" href="http://localhost:4567/css/app.css">
+  </head>
+
+  <body> 
+        <div class="overlay"></div>
+
+        <!-- NAVIGATION MENU BAR -->
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <a href="/students" id="logo">CARNEGIE MELLON QATAR</a>
+            </div>
+            <div class="top-bar-right">
+                <ul class="menu">
+                  <li><a href="/students" class="navlink">HOME</a></li>
+                  <li><a href="/students/new" class="navlink">ADD A STUDENT</a></li>
+                </ul>
+            </div>
+        </div>
+          <!--  YIELD -->
+                <br>
+                <br>   
+                <br>
+                <h1 id="welcome">Hello, Welcome to Carnegie Mellon Univeristy Qatar Student tracking system </h1>
+                <br>
+                <br> 
+                <br>
+
+        <div class="yieldwrap">
+                    <%= yield%>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <!-- FOOTER -->
+
+        <div class="row footer">
+              <h3 id="footerheader">Made with &#10084; by Muhsin Warfa copyright &#169; 2016</h3>
+        </div>
+
+   
+       
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
